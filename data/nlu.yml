@@ -1,0 +1,228 @@
+
+nlu:
+- intent: greet
+  examples:
+    - text: "Hi"
+    - text: "Hey"
+    - text: "Hi bot"
+    - text: "Hey bot"
+    - text: "Hello"
+    - text: "good morning"
+    - text: "hi again"
+    - text: "hi folks"
+    - text: "hi Mister"
+    - text: "hi pal!"
+    - text: "hi there"
+    - text: "greetings"
+    - text: "hello everybody"
+    - text: "hello is anybody there"
+    - text: "hello robot"
+    - text: "hi"
+- intent: goodbye
+  examples:
+    - text: "Bye"
+    - text: "Bye!"
+    - text: "Goodbye"
+    - text: "See you later"
+    - text: "Bye bot"
+    - text: "Goodbye friend"
+    - text: "bye"
+    - text: "bye for now"
+    - text: "catch you later"
+    - text: "gotta go"
+    - text: "See you"
+    - text: "goodnight"
+    - text: "have a nice day"
+    - text: "i'm off"
+    - text: "see you later alligator"
+    - text: "we'll speak soon"
+- intent: thanks
+  examples:
+    - text: "Thanks"
+    - text: "Thank you"
+    - text: "Thank you so much"
+    - text: "Thanks bot"
+    - text: "Thanks for that"
+    - text: "cheers"
+    - text: "cheers bro"
+    - text: "ok thanks!"
+    - text: "perfect thank you"
+    - text: "thanks a bunch for everything"
+    - text: "thanks for the help"
+    - text: "thanks a lot"
+    - text: "amazing, thanks"
+    - text: "cool, thanks"
+    - text: "cool thank you"
+- intent: how_are_you
+  examples:
+    - text: "how are you"
+    - text: "howz you"
+    - text: "are you fine"
+    - text: "kaise ho"
+- intent: respond_greet
+  examples:
+    - text: "I am good"
+    - text: "i am fine"
+    - text: "I am fantastic"
+    - text: "I am ok"
+    - text: "happy"
+    - text: "great"
+    - text: "I am great"
+- intent: out_of_scope
+  examples: []
+- intent: about_bot
+  examples:
+    - text: "who are you?"
+    - text: "what is your name?"
+    - text: "how can you help me?"
+    - text: "what is your purpose?"
+- intent: what_is_vof
+  examples:
+    - text: "What is value of farmers?"
+    - text: "What is vof?"
+    - text: "vof?"
+    - text: "Value of farmers?"
+    - text: "VOF?"
+    - text: "give me information of this application"
+- intent: what_is_choose_crop
+  examples:
+    - text: "What is choose your crop?"
+    - text: "choose your crop?"
+- intent: what_is_tool_swap
+  examples:
+    - text: "What is tool swapping?"
+    - text: "tool swapping?"
+- intent: what_is_buy_seed_fert
+  examples:
+    - text: "What is buy seed and fertilizer?"
+    - text: "buy seed and fertilizer?"
+- intent: what_is_book_warehouse
+  examples:
+    - text: "What is book a warehouse?"
+    - text: "book warehouse?"
+- intent: what_is_see_mp
+  examples:
+    - text: "What is see market price?"
+    - text: "market price?"
+- intent: what_is_list_product
+  examples:
+    - text: "What is list your product?"
+    - text: "list your product?"
+- intent: what_is_insurance_cal
+  examples:
+    - text: "What is insurance premium calendar?"
+    - text: "insurance premium calendar?"
+- intent: what_is_agri_expert
+  examples:
+    - text: "What is agri-expert?"
+    - text: "agri-expert?"
+- intent: is_vof_paid
+  examples:
+    - text: "Is value of farmers a paid service"
+    - text: "is vof free"
+    - text: "does vof service charge anything"
+    - text: "is vof chargable"
+    - text: "is vof paid"
+- intent: use_vof
+  examples:
+    - text: "how to use vof application"
+    - text: "how to use this application"
+    - text: "how can I use vof"
+    - text: "using of vof"
+    - text: "user manual of vof"
+    - text: "using of vof application"
+- intent: about_otp
+  examples:
+    - text: "what is otp"
+    - text: "tell me about otp"
+    - text: "what is start otp"
+    - text: "what is end otp"
+- intent: recommended_crops
+  examples:
+    - text: "what is recommended crops"
+    - text: "tell me about crop recommendation"
+- intent: not_recommended_crops
+  examples:
+    - text: "what is non recommended crops"
+    - text: "tell me about not recommended crops"
+    - text: "what is not recommended crops"
+- intent: adv_recommended_crops
+  examples:
+    - text: "what are advantages of recommended crop system"
+    - text: "advantages of recommended crops"
+    - text: "advantages of vof paid service"
+- intent: krishitagya
+  examples:
+    - text: "what is krishitagya"
+    - text: "who is krishitagya"
+    - text: "krishitagya"
+    - text: "work of krishitagya"
+    - text: "what does krishitagya do"
+    - text: "what is purpose of krishitagya"
+- intent: soil_testing
+  examples:
+    - text: "what is soil testing"
+    - text: "soil testing"
+    - text: "how to do soil testing"
+- intent: kt_chargable
+  examples:
+    - text: "is krishitagya chargeble"
+    - text: "is krishitagya charge"
+    - text: "rates of krishitagya"
+- intent: voice_training
+  examples:
+    - text: "what is voice based training"
+    - text: "Tell me about voice training"
+- intent: customer_care
+  examples:
+    - text: "contact customer care"
+    - text: "how to contact customer care"
+    - text: "how to reach customer care"
+    - text: "how to reach vof team"
+- intent: agri_expert_charge
+  examples:
+    - text: "what is charge of agri expert"
+    - text: "does agri-expert charge"
+    - text: "agri expert charges"
+    - text: "is agri expert free"
+- intent: claim_insurance
+  examples:
+    - text: "can I claim an insurance towards VOF"
+    - text: "claim an insurance to vof"
+    - text: "Is VOF responsible for VOF insurance"
+    - text: "is there a facility to claim insurance from vof"
+- intent: purchase_insurance
+  examples:
+    - text: "Can I purchase an insurance from vof"
+    - text: "purchase insurance from vof"
+    - text: "is there a facility to purchase insurance from vof"
+- intent: expensive_tools
+  examples:
+    - text: "what is expensive tools"
+    - text: "what is non-expensive tools"
+    - text: "expensive and non-expensive tools"
+    - text: "tell me about expensive and non-expensive tools"
+- intent: contact_agri_expert
+  examples:
+    - text: "how can I contact agri-expert"
+    - text: "contact agri expert"
+    - text: "call agri-expert"
+    - text: "i want to talk to agi- expert"
+    - text: "i want to set an appointment with the agri-expert"
+- intent: mp_authorised
+  examples:
+    - text: "is market price authorized by government?"
+    - text: "is market price government authorized?"
+    - text: "does government authorize market price"
+- intent: rent_tool
+  examples:
+    - text: "what is tool renting"
+    - text: "what is tool rent"
+    - text: "how to rent a tool"
+    - text: "rent tool"
+    - text: "tool rent"
+- intent: kt_tool_swap
+  examples:
+    - text: "what is role of krishitagya in tool swapping"
+    - text: "what is use of krishitagya in tool swapping"
+    - text: "who comes for tool"

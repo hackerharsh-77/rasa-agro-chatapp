@@ -1,0 +1,479 @@
+
+
+version: "2.0"
+
+stories:
+- story: story_greet
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: story_goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: story_thankyou
+  steps:
+  - intent: thanks
+  - action: utter_welcome
+
+- story: story_how_are_you
+  steps:
+  - intent: how_are_you
+  - action: utter_how_are_you
+
+- story: story_respond_greet
+  steps:
+  - intent: respond_greet
+  - action: utter_respond_greet
+
+- story: story_vof
+  steps:
+  - intent: what_is_vof
+  - action: utter_vof
+
+- story: story_bot
+  steps:
+  - intent: about_bot
+  - action: utter_bot
+
+- story: story_choose_crop
+  steps:
+  - intent: what_is_choose_crop
+  - action: utter_choose_crop
+
+- story: story_tool
+  steps:
+  - intent: what_is_tool_swap
+  - action: utter_tool_swap
+
+- story: story_seed_fert
+  steps:
+  - intent: what_is_buy_seed_fert
+  - action: utter_seed_fert
+
+- story: story_book_warehouse
+  steps:
+  - intent: what_is_book_warehouse
+  - action: utter_book_warehouse
+
+- story: story_see_mp
+  steps:
+  - intent: what_is_see_mp
+  - action: utter_see_mp
+
+- story: story_list_product
+  steps:
+  - intent: what_is_list_product
+  - action: utter_list_product
+
+- story: story_insurance_cal
+  steps:
+  - intent: what_is_insurance_cal
+  - action: utter_insurance_cal
+
+- story: story_agri_exp
+  steps:
+  - intent: what_is_agri_expert
+  - action: utter_agri_expert
+
+- story: story_out_scope
+  steps:
+  - intent: out_of_scope
+  - action: utter_out_scope
+
+- story: story_vof_paid
+  steps:
+  - intent: is_vof_paid
+  - action: utter_is_vof_paid
+
+- story: story_use_vof
+  steps:
+  - intent: use_vof
+  - action: utter_use_vof
+
+- story: story_otp
+  steps:
+  - intent: about_otp
+  - action: utter_about_otp
+
+- story: story_recommended_crops
+  steps:
+  - intent: recommended_crops
+  - action: utter_recommended_crops
+
+- story: story_not_recommended_crops
+  steps:
+  - intent: not_recommended_crops
+  - action: utter_not_recommended_crops
+
+- story: story_adv_of_recommended_crops
+  steps:
+  - intent: adv_recommended_crops
+  - action: utter_adv_recommended_crops
+
+- story: story_krishitagya
+  steps:
+  - intent: krishitagya
+  - action: utter_krishitagya
+
+- story: story_soil_testing
+  steps:
+  - intent: soil_testing
+  - action: utter_soil_testing
+
+- story: story_kt_charge
+  steps:
+  - intent: kt_chargable
+  - action: utter_kt_chargable
+
+- story: story_about_voice_training
+  steps:
+  - intent: voice_training
+  - action: utter_voice_training
+
+- story: story_customer_care
+  steps:
+  - intent: customer_care
+  - action: utter_customer_care
+
+- story: story_agri_expert_charge
+  steps:
+  - intent: agri_expert_charge
+  - action: utter_agri_expert_charge
+
+- story: story_claim_insurance
+  steps:
+  - intent: claim_insurance
+  - action: utter_claim_insurance
+
+- story: story_purchase_insurance
+  steps:
+  - intent: purchase_insurance
+  - action: utter_purchase_insurance
+
+- story: story_exp_tools
+  steps:
+  - intent: expensive_tools
+  - action: utter_expensive_tools
+
+- story: story_contact_agri_expert
+  steps:
+  - intent: contact_agri_expert
+  - action: utter_contact_agri_expert
+
+- story: story_mp_authorised
+  steps:
+  - intent: mp_authorised
+  - action: utter_mp_authorised
+
+- story: story_tool_rent
+  steps:
+  - intent: rent_tool
+  - action: utter_rent_tool
+
+- story: story_kt_tool
+  steps:
+  - intent: kt_tool_swap
+  - action: utter_kt_tool_swap
+
+- story: story_tool_hiring
+  steps:
+  - intent: tool_hiring
+  - action: utter_tool_hiring
+
+- story: story_expected_duration_for_selling
+  steps:
+  - intent: expected_duration_for_selling_product
+  - action: utter_expected_duration_for_selling_product
+
+- story: story_product_lst_product
+  steps:
+  - intent: product_in_list_your_product
+  - action: utter_product_in_list_your_product
+
+- story: why_agri_expert
+  steps:
+  - intent: why_agri_expert
+  - action: utter_why_agri_expert
+
+- story: greet_vof_paid_use_vof
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: what_is_vof
+  - action: utter_vof
+  - intent: is_vof_paid
+  - action: utter_is_vof_paid
+  - intent: use_vof
+  - action: utter_use_vof
+  - intent: thanks
+  - action: utter_welcome
+
+- story: greet_how_you_respond_vof
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: how_are_you
+  - action: utter_how_are_you
+  - intent: respond_greet
+  - action: utter_respond_greet
+  - intent: what_is_vof
+  - action: utter_vof
+  - intent: thanks
+  - action: utter_welcome
+
+- story: greet_bot_vof_paid
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: about_bot
+  - action: utter_bot
+  - intent: what_is_vof
+  - action: utter_vof
+  - intent: is_vof_paid
+  - action: utter_is_vof_paid
+  - intent: thanks
+  - action: utter_welcome
+
+- story: greet_bot_vof_choose_selling_product
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: about_bot
+  - action: utter_bot
+  - intent: what_is_vof
+  - action: utter_vof
+  - intent: what_is_choose_crop
+  - action: utter_choose_crop
+  - intent: expected_duration_for_selling_product
+  - action: utter_expected_duration_for_selling_product
+  - intent: thanks
+  - action: utter_welcome
+
+- story: greet_vof_otp_tool_expensive_hire
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: what_is_vof
+  - action: utter_vof
+  - intent: about_otp
+  - action: utter_about_otp
+  - intent: what_is_tool_swap
+  - action: utter_tool_swap
+  - intent: expensive_tools
+  - action: utter_expensive_tools
+  - intent: tool_hiring
+  - action: utter_tool_hiring
+  - intent: thanks
+  - action: utter_welcome
+
+- story: greet_bot_vof_choose_seed
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: about_bot
+  - action: utter_bot
+  - intent: what_is_vof
+  - action: utter_vof
+  - intent: what_is_choose_crop
+  - action: utter_choose_crop
+  - intent: what_is_buy_seed_fert
+  - action: utter_seed_fert
+  - intent: thanks
+  - action: utter_welcome
+
+- story: greet_vof_tool_rent_warehouse
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: what_is_vof
+  - action: utter_vof
+  - intent: what_is_tool_swap
+  - action: utter_tool_swap
+  - intent: rent_tool
+  - action: utter_rent_tool
+  - intent: what_is_book_warehouse
+  - action: utter_book_warehouse
+  - intent: thanks
+  - action: utter_welcome
+
+- story: greet_vof_tool_mp_authorised
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: what_is_vof
+  - action: utter_vof
+  - intent: what_is_tool_swap
+  - action: utter_tool_swap
+  - intent: what_is_see_mp
+  - action: utter_see_mp
+  - intent: mp_authorised
+  - action: utter_mp_authorised
+  - intent: thanks
+  - action: utter_welcome
+
+- story: greet_vof_prod_cal
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: what_is_vof
+  - action: utter_vof
+  - intent: what_is_list_product
+  - action: utter_list_product
+  - intent: what_is_insurance_cal
+  - action: utter_insurance_cal
+  - intent: thanks
+  - action: utter_welcome
+
+- story: greet_vof_tool_kt_tool_expert
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: what_is_vof
+  - action: utter_vof
+  - intent: what_is_tool_swap
+  - action: utter_tool_swap
+  - intent: kt_tool_swap
+  - action: utter_kt_tool_swap
+  - intent: what_is_agri_expert
+  - action: utter_agri_expert
+  - intent: thanks
+  - action: utter_welcome
+
+- story: greet_bot_vof_paid_recommend_not_recommend_adv
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: about_bot
+  - action: utter_bot
+  - intent: what_is_vof
+  - action: utter_vof
+  - intent: is_vof_paid
+  - action: utter_is_vof_paid
+  - intent: recommended_crops
+  - action: utter_recommended_crops
+  - intent: not_recommended_crops
+  - action: utter_not_recommended_crops
+  - intent: adv_recommended_crops
+  - action: utter_adv_recommended_crops
+  - intent: thanks
+  - action: utter_welcome
+
+- story: greet_vof_paid_use_vof_krishitagya
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: what_is_vof
+  - action: utter_vof
+  - intent: is_vof_paid
+  - action: utter_is_vof_paid
+  - intent: use_vof
+  - action: utter_use_vof
+  - intent: krishitagya
+  - action: utter_krishitagya
+  - intent: thanks
+  - action: utter_welcome
+
+- story: greet_vof_tool_expert_soil
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: what_is_vof
+  - action: utter_vof
+  - intent: what_is_tool_swap
+  - action: utter_tool_swap
+  - intent: what_is_agri_expert
+  - action: utter_agri_expert
+  - intent: soil_testing
+  - action: utter_soil_testing
+  - intent: thanks
+  - action: utter_welcome
+
+- story: greet_vof_krishitagya_kt_charge
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: what_is_vof
+  - action: utter_vof
+  - intent: krishitagya
+  - action: utter_krishitagya
+  - intent: kt_chargable
+  - action: utter_kt_chargable
+  - intent: thanks
+  - action: utter_welcome
+
+- story: greet_vof_voice_care
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: what_is_vof
+  - action: utter_vof
+  - intent: voice_training
+  - action: utter_voice_training
+  - intent: customer_care
+  - action: utter_customer_care
+  - intent: thanks
+  - action: utter_welcome
+
+- story: greet_vof_tool_expert_expert_charge_contact
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: what_is_vof
+  - action: utter_vof
+  - intent: what_is_tool_swap
+  - action: utter_tool_swap
+  - intent: what_is_agri_expert
+  - action: utter_agri_expert
+  - intent: agri_expert_charge
+  - action: utter_agri_expert_charge
+  - intent: contact_agri_expert
+  - action: utter_contact_agri_expert
+  - intent: thanks
+  - action: utter_welcome
+
+- story: greet_vof_claim_purchase_insurance
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: what_is_vof
+  - action: utter_vof
+  - intent: claim_insurance
+  - action: utter_claim_insurance
+  - intent: purchase_insurance
+  - action: utter_purchase_insurance
+  - intent: thanks
+  - action: utter_welcome
+
+- story: greet_vof_voice_care_lst_prod
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: what_is_vof
+  - action: utter_vof
+  - intent: voice_training
+  - action: utter_voice_training
+  - intent: customer_care
+  - action: utter_customer_care
+  - intent: product_in_list_your_product
+  - action: utter_product_in_list_your_product
+  - intent: thanks
+  - action: utter_welcome
+
+- story: greet_bot_vof_agri_why_agri
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: about_bot
+  - action: utter_bot
+  - intent: what_is_vof
+  - action: utter_vof
+  - intent: what_is_agri_expert
+  - action: utter_agri_expert
+  - intent: why_agri_expert
+  - action: utter_why_agri_expert
+  - intent: thanks
+  - action: utter_welcome
+

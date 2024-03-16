@@ -1,0 +1,195 @@
+# version: "3.1"
+
+# intents:
+#   - greet
+#   - goodbye
+#   - affirm
+#   - deny
+#   - mood_great
+#   - mood_unhappy
+#   - bot_challenge
+
+# responses:
+#   utter_greet:
+#   - text: "Hey! How are you?"
+
+#   utter_cheer_up:
+#   - text: "Here is something to cheer you up:"
+#     image: "https://i.imgur.com/nGF1K8f.jpg"
+
+#   utter_did_that_help:
+#   - text: "Did that help you?"
+
+#   utter_happy:
+#   - text: "Great, carry on!"
+
+#   utter_goodbye:
+#   - text: "Bye"
+
+#   utter_iamabot:
+#   - text: "I am a bot, powered by Rasa."
+
+# session_config:
+#   session_expiration_time: 60
+#   carry_over_slots_to_new_session: true
+
+intents:
+- greet
+- goodbye
+- thanks
+- how_are_you
+- respond_greet
+- out_of_scope
+- about_bot
+- what_is_vof
+- what_is_choose_crop
+- what_is_tool_swap
+- what_is_buy_seed_fert
+- what_is_book_warehouse
+- what_is_see_mp
+- what_is_list_product
+- what_is_insurance_cal
+- what_is_agri_expert
+- is_vof_paid
+- use_vof
+- about_otp
+- recommended_crops
+- not_recommended_crops
+- adv_recommended_crops
+- krishitagya
+- soil_testing
+- kt_chargable
+- voice_training
+- customer_care
+- agri_expert_charge
+- claim_insurance
+- purchase_insurance
+- expensive_tools
+- contact_agri_expert
+- mp_authorised
+- rent_tool
+- kt_tool_swap
+- tool_hiring
+- expected_duration_for_selling_product
+- product_in_list_your_product
+- why_agri_expert
+
+responses:
+  utter_greet:
+  - text: "Hello! How can I assist you today?"
+  
+  utter_goodbye:
+  - text: "Goodbye! Have a great day ahead."
+  
+  utter_welcome:
+  - text: "You're welcome!"
+  
+  utter_how_are_you:
+  - text: "I'm doing well, thank you for asking."
+  
+  utter_respond_greet:
+  - text: "I'm glad to hear that!"
+  
+  utter_out_scope:
+  - text: "I'm sorry, I'm not sure how to help with that."
+  
+  utter_bot:
+  - text: "I am a bot designed to assist you with information related to agriculture and farming."
+  
+  utter_vof:
+  - text: "VOF (Value of Farmers) is an application designed to provide various services and support to farmers."
+  
+  utter_choose_crop:
+  - text: "Choose Your Crop is a feature in VOF that helps farmers in selecting suitable crops based on their location and preferences."
+  
+  utter_tool_swap:
+  - text: "Tool Swapping is a service provided by VOF where farmers can exchange agricultural tools with other farmers to meet their specific needs."
+  
+  utter_seed_fert:
+  - text: "Buy Seed and Fertilizer is a feature in VOF where farmers can purchase quality seeds and fertilizers for their crops."
+  
+  utter_book_warehouse:
+  - text: "Book a Warehouse is a service offered by VOF that allows farmers to reserve storage space for their agricultural products."
+  
+  utter_see_mp:
+  - text: "See Market Price is a feature in VOF that provides farmers with real-time information about market prices for agricultural produce."
+  
+  utter_list_product:
+  - text: "List Your Product is a feature in VOF where farmers can showcase their agricultural products for sale to potential buyers."
+  
+  utter_insurance_cal:
+  - text: "Insurance Premium Calendar is a tool in VOF that helps farmers keep track of their insurance premium payments."
+  
+  utter_agri_expert:
+  - text: "Agri-Expert is a service offered by VOF where farmers can consult with agricultural experts for guidance and advice."
+  
+  utter_is_vof_paid:
+  - text: "VOF offers both free and paid services. Some features may require payment while others are free of charge."
+  
+  utter_use_vof:
+  - text: "To use VOF, you can download the application from the app store and follow the instructions for registration and usage."
+  
+  utter_about_otp:
+  - text: "OTP (One-Time Password) is a security measure used by VOF to verify user identities during account registration and login."
+  
+  utter_recommended_crops:
+  - text: "Recommended Crops are crops suggested by VOF based on factors such as soil type, climate, and market demand."
+  
+  utter_not_recommended_crops:
+  - text: "Not Recommended Crops are crops that may not be suitable for cultivation in a specific area or season, as determined by VOF."
+  
+  utter_adv_recommended_crops:
+  - text: "The advantages of recommended crop systems include higher yields, better marketability, and improved profitability for farmers."
+  
+  utter_krishitagya:
+  - text: "Krishitagya is a support system within VOF that provides personalized assistance and advice to farmers on agricultural practices."
+  
+  utter_soil_testing:
+  - text: "Soil Testing is a process conducted by VOF to analyze the nutrient content and pH levels of soil, helping farmers make informed decisions about fertilization and crop selection."
+  
+  utter_kt_chargable:
+  - text: "The charges for Krishitagya services may vary depending on the level of assistance and support required by the farmer."
+  
+  utter_voice_training:
+  - text: "Voice-based training is a feature in VOF that allows farmers to receive agricultural guidance and instructions through voice commands."
+  
+  utter_customer_care:
+  - text: "To contact customer care, you can reach out to VOF support through the contact information provided in the application."
+  
+  utter_agri_expert_charge:
+  - text: "The charges for consulting with an Agri-Expert may vary depending on the duration and complexity of the consultation."
+  
+  utter_claim_insurance:
+  - text: "To claim insurance through VOF, you can submit your claim request through the insurance section of the application."
+  
+  utter_purchase_insurance:
+  - text: "To purchase insurance through VOF, you can explore the insurance options available in the application and follow the prompts to complete the purchase."
+  
+  utter_expensive_tools:
+  - text: "Expensive tools refer to agricultural equipment and machinery that may have a high initial cost or maintenance expenses."
+  
+  utter_contact_agri_expert:
+  - text: "You can contact an Agri-Expert through VOF by scheduling an appointment or initiating a consultation session within the application."
+  
+  utter_mp_authorised:
+  - text: "Market price information provided by VOF is sourced from authorized government agencies and reputable market sources."
+  
+  utter_rent_tool:
+  - text: "Tool renting is a service offered by VOF where farmers can temporarily access agricultural equipment and machinery for a fee."
+  
+  utter_kt_tool_swap:
+  - text: "Krishitagya plays a role in facilitating tool swapping by connecting farmers who wish to exchange agricultural tools and equipment."
+  
+  utter_tool_hiring:
+  - text: "Tool hiring is a service provided by VOF where farmers can rent agricultural equipment and machinery for temporary use."
+  
+  utter_expected_duration_for_selling_product:
+  - text: "The expected duration for selling a product may vary depending on factors such as market demand, product quality, and advertising efforts."
+  
+  utter_product_in_list_your_product:
+  - text: "You can list various agricultural products such as crops, livestock, and agricultural inputs on the List Your Product feature of VOF."
+  
+  utter_why_agri_expert:
+  - text: "Paying for Agri-Expert services can provide farmers with personalized advice, guidance, and support to improve their agricultural practices and outcomes."
+  
+
